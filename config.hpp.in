@@ -1,0 +1,6 @@
+#ifndef CONFIG_HPP_IN
+#define CONFIG_HPP_IN
+
+#cmakedefine RES_DIR "@RES_DIR@/"
+
+#endif
