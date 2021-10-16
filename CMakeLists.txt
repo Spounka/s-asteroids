@@ -13,8 +13,8 @@ include_directories("include")
 add_subdirectory("extern/SFML-2.5.1")
 include_directories("extern/SFML-2.5.1/include")
 
-set(PROJECT_HEADERS "")
-set(PROJECT_SOURCES "src/main.cpp")
+set(PROJECT_HEADERS "include/config.hpp" "include/resourcesmanager.hpp")
+set(PROJECT_SOURCES "src/main.cpp" "src/resourcesmanager.cpp")
 
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES} ${PROJECT_HEADERS})
 target_link_libraries(${PROJECT_NAME} sfml-window sfml-graphics sfml-audio)
