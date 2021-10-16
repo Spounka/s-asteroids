@@ -3,4 +3,8 @@
 
 #cmakedefine RES_DIR "@RES_DIR@/"
 
+enum {
+    FILE_LOAD_ERROR = 1,
+};
+
 #endif
